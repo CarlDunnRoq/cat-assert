@@ -4,11 +4,13 @@ public class Cat {
 	public boolean alive;
 	public int hunger;
 	
+//Constructor, hunger is in percentage
 	public Cat() {
 		this.alive = true;
 		this.hunger = 50;
 	}
 	
+//Method, owned by object
 	public boolean feeds() {
 		if (this.hunger > 20) {
 			this.hunger -= 20;
